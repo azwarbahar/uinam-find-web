@@ -300,7 +300,7 @@ h2.txt-w3_agile {
 }
 
 span.bar {
-    background: #88adf1;
+    background: #bdce03;
     display: block;
     position: relative;
     width: 65%;
@@ -314,7 +314,7 @@ span.bar:before {
     position: absolute;
     top: 0px;
     right: 0;
-    width: 30%;
+    width: 15%;
     background: #fff;
     height: 10px;
     border-radius: 0 10px 10px 0;
