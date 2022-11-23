@@ -54,9 +54,12 @@ if (mysqli_num_rows($result) > 0) {
 
 								<?php
 								$result_motto = mysqli_query($conn, "SELECT * FROM tb_motto_user WHERE user_id = '$dta[id]'");
-								$dta_motto = mysqli_fetch_assoc($result_motto);
+
+								if (mysqli_num_rows($result_motto) > 0) {
+									$dta_motto = mysqli_fetch_assoc($result_motto);
+									echo "<p class='job-name mb-0'> $dta_motto[motto_profesional] </p>";
+								}
 								?>
-								<p class="job-name mb-0"><?= $dta_motto['motto_profesional'] ?></p>
 							</div>
 							<div id="contact-info" class="contact-info mt-5">
 								<?php
