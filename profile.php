@@ -1,4 +1,5 @@
 <?php
+require_once 'koneksi.php';
 $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username'");
 
 ?>
@@ -39,7 +40,7 @@ $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username
 <body data-rsssl="1">
 
     <div id="preview">
-        <iframe id="hk-preview" class="pc-preview tab-preview mobile-preview" src="template/user.php?username=<?= $username ?> " frameborder="0"></iframe>
+        <iframe id="hk-preview" class="pc-preview tab-preview mobile-preview" src="template/user.php?username=<?= $username ?>" frameborder="0"></iframe>
     </div>
     <!-- <script type="text/javascript" async="" src="template/analytics.js.download"></script> -->
     <script>
