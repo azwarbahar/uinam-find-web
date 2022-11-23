@@ -25,9 +25,17 @@ if (mysqli_num_rows($result) > 0) {
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="UINAM, uinam, uinamfind, UIN, Universitas Alauddin Makassar, Alauddin, Makassar, Mahaisswa, Kampus, Samata, Gowa, Recruiter, Loker, Lowongan Kerja, Organisasi, UKM, UIN Alauddin Makassar, Universitas Islam Negeri Alauddin Makassar, Islam, Find, Cari" />
 	<title>My Resume | <?= $username ?></title>
 	<meta name="robots" content="noindex,nofollow">
-	<link rel="icon" type="image/x-icon" href="../images/icon_uianam.ico" />
+	<?php
+	if ($dta['foto'] == "") {
+		$fotonya = "../images/icon_uianam.ico";
+	} else {
+		$fotonya = "https://api.uinamfind.com/upload/photo/$dta[foto]";
+	}
+	?>
+	<link rel="icon" type="image/x-icon" href="<?= $fotonya ?>" />
 	<link rel="stylesheet" href="./bootstrap.min.css">
 	<link rel="stylesheet" href="./style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com/">
