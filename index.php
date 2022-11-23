@@ -13,7 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link rel="icon" type="image/x-icon" href="images/icon_uinam.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="UIN, Universitas Alauddin Makassar, Alauddin, Makassar, Mahaisswa, Kampus, Samata, Gowa, Recruiter, Loker, Lowongan Kerja, Organisasi, UKM, UIN Alauddin Makassar, Universitas Islam Negeri Alauddin Makassar, Islam, Find, Cari" />
+	<meta name="keywords" content="UINAM, uinam, uinamfind, UIN, Universitas Alauddin Makassar, Alauddin, Makassar, Mahaisswa, Kampus, Samata, Gowa, Recruiter, Loker, Lowongan Kerja, Organisasi, UKM, UIN Alauddin Makassar, Universitas Islam Negeri Alauddin Makassar, Islam, Find, Cari" />
 	<script type="application/x-javascript">
 		addEventListener("load", function() {
 			setTimeout(hideURLbar, 0);
@@ -37,7 +37,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="w3l-banner-layer">
 		<div class="container  text-center">
 			<div class="agileinfo-logo">
-				<h1><a href="index.html"><img src="images/logo_uinam_info.png" alt="UINAMFIND LOGO" width="150" height="100"></a></h1>
+				<h1><a href="index.html"><img src="images/logo_uinam_info.png" alt="UINAMFind" width="150" height="100"></a></h1>
 			</div>
 			<h2 class="txt-w3_agile">stay tuned <br>we're launching soon. </h2>
 			<span class="bar"></span>

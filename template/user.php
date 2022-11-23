@@ -49,7 +49,7 @@ if (mysqli_num_rows($result) > 0) {
 								$fotonya = "https://api.uinamfind.com/upload/photo/$dta[foto]";
 							}
 							?>
-							<div class="about"> <img src="<?= $fotonya ?>" class="profile-pic img-fluid rounded-circle">
+							<div class="about"> <img alt="<?= $dta['nama_depan'] ?> | UINAMFind | UINA ALauddin Makassar" src="<?= $fotonya ?>" class="profile-pic img-fluid rounded-circle">
 								<h1 class="name mt-3 mb-1"><?= $dta['nama_depan'] ?> <?= $dta['nama_belakang'] ?></h1>
 
 								<?php
@@ -108,7 +108,7 @@ if (mysqli_num_rows($result) > 0) {
 											} else if ($nama_sosmed == "Youtube") {
 												$nama_svg_icon = "YouTube.svg";
 											} else if ($nama_sosmed == "Linkedin") {
-												$nama_svg_icon = "Linkedin.svg";
+												$nama_svg_icon = "LinkedIn.svg";
 											} else if ($nama_sosmed == "Github") {
 												$nama_svg_icon = "Github.svg";
 											} else if ($nama_sosmed == "Telegram") {
@@ -174,7 +174,6 @@ if (mysqli_num_rows($result) > 0) {
 							echo "<p> $dta[tentang_user]</p>";
 						}
 						?>
-						<p><?= $dta['tentang_user'] ?></p>
 					</div>
 					<!-- About  End-->
 
