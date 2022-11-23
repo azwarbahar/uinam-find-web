@@ -1,3 +1,10 @@
+<?php
+
+$username = $_GET['username'];
+$result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username'");
+
+?>
+
 <!DOCTYPE html>
 <!-- saved from url=(0037)https://angrystudio.com/preview/puro/ -->
 <html lang="en">
@@ -7,9 +14,27 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,follow">
+    <meta name="keywords" content="UINAM, uinam, uinamfind, UIN, Universitas Alauddin Makassar, Alauddin, Makassar, Mahaisswa, Kampus, Samata, Gowa, Recruiter, Loker, Lowongan Kerja, Organisasi, UKM, UIN Alauddin Makassar, Universitas Islam Negeri Alauddin Makassar, Islam, Find, Cari" />
     <meta name="description" content="">
-    <title> <?= $username ?> | My Resume</title>
-    <link rel="icon" type="image/x-icon" href="/images/icon_uianam.ico" />
+    <?php
+    if (mysqli_num_rows($result) > 0) {
+        $dta = mysqli_fetch_assoc($result);
+        if ($dta['foto'] == "") {
+            $fotonya = "/images/icon_uianam.ico";
+        } else {
+            $fotonya = "https://api.uinamfind.com/upload/photo/$dta[foto]";
+        }
+    ?>
+        <title> <?= $dta['nama_depan'] ?> <?= $dta['nama_belakang'] ?> | My Resume</title>
+        <link rel="icon" type="image/x-icon" href="<?= $fotonya ?>" />
+    <?php
+    } else {
+    ?>
+        <title> <?= $username ?> | My Resume</title>
+        <link rel="icon" type="image/x-icon" href="/images/icon_uianam.ico" />
+    <?php
+    }
+    ?>
     <link rel="stylesheet" href="template/preview-generator.css">
 </head>
 
