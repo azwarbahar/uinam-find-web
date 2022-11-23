@@ -1,6 +1,4 @@
 <?php
-
-$username = $_GET['username'];
 $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username'");
 
 ?>
