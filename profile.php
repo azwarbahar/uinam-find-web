@@ -5,7 +5,6 @@ $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username
 ?>
 
 <!DOCTYPE html>
-<!-- saved from url=(0037)https://angrystudio.com/preview/puro/ -->
 <html lang="en">
 
 <head>

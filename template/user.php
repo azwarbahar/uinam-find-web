@@ -18,7 +18,6 @@ if (mysqli_num_rows($result) > 0) {
 ?>
 
 <!DOCTYPE html>
-<!-- saved from url=(0060)https://angrystudio.github.io/angrystudio-puro-bootstrap-cv/ -->
 <html lang="en">
 
 <head>
