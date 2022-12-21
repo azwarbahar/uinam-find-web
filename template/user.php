@@ -279,10 +279,9 @@ if (mysqli_num_rows($result) > 0) {
 								$akhir_organisasi = date("Y", strtotime($dta_get_organisasi['tanggal_berakhir']));
 								$masa_organisasi = "-";
 								if ($dta_get_organisasi['status_organisasi_user'] == "Berakhir") {
-									$masa_organisasi = $mulai_organisasi . " - Sekarang";
-								} else {
-
 									$masa_organisasi = $mulai_organisasi . " - " . $akhir_organisasi;
+								} else {
+									$masa_organisasi = $mulai_organisasi . " - Sekarang";
 								}
 								?>
 								<div class="col-6 text-right"> <span class="tiny-super"><?= $masa_organisasi ?></span> </div>
