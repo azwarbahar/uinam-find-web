@@ -61,6 +61,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<p> &copy; 2022 Uinamfind.com. All rights reserved | by <a href="https://www.uinamfind.com/azwarbahar" target="=_blank">Muhammad Azwar Bahar</a></p>
 		</div>
 	</div>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111475769067136" crossorigin="anonymous"></script>
 </body>
 
 </html>
