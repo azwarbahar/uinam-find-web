@@ -34,6 +34,8 @@ $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username
     }
     ?>
     <link rel="stylesheet" href="template/preview-generator.css">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111475769067136" crossorigin="anonymous"></script>
 </head>
 
 <body data-rsssl="1">
@@ -59,7 +61,7 @@ $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$username
 
         gtag('config', 'UA-159397668-1');
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111475769067136" crossorigin="anonymous"></script>
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111475769067136" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

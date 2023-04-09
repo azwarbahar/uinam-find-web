@@ -14,6 +14,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="UINAM, uinam, uinamfind, UIN, Universitas Alauddin Makassar, Alauddin, Makassar, Mahaisswa, Kampus, Samata, Gowa, Recruiter, Loker, Lowongan Kerja, Organisasi, UKM, UIN Alauddin Makassar, Universitas Islam Negeri Alauddin Makassar, Islam, Find, Cari" />
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111475769067136" crossorigin="anonymous"></script>
 	<script type="application/x-javascript">
 		addEventListener("load", function() {
 			setTimeout(hideURLbar, 0);
@@ -61,7 +62,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<p> &copy; 2022 Uinamfind.com. All rights reserved | by <a href="https://www.uinamfind.com/azwarbahar" target="=_blank">Muhammad Azwar Bahar</a></p>
 		</div>
 	</div>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111475769067136" crossorigin="anonymous"></script>
 </body>
 
 </html>
